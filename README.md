@@ -46,5 +46,5 @@ Please put the model in the folder `./model_pre
 
 Run  
 ```bash
-python train.py
+python test.py
 ```  
