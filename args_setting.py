@@ -9,6 +9,6 @@ parser.add_argument('--batch_size', type=int, default=4)
 parser.add_argument('--patch_size', type=int, default=256)
 
 parser.add_argument('--task', type=str, default='PET-MRI')  # CT-MRI, PET-MRI, SPECT-MRI
-parser.add_argument('--model', type=str, default='ASFE')  # CT-MRI, PET-MRI, SPECT-MRI
+parser.add_argument('--model', type=str, default='W-HSSF')  # CT-MRI, PET-MRI, SPECT-MRI
 
 args = parser.parse_args()
